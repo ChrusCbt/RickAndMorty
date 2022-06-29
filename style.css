@@ -143,8 +143,8 @@ body{
 @media only screen and (max-width: 900px) {
     body{
         background-image: scroll;
-        background-position: -85% 70%;
-        background-size: cover;
+        background-position: 65% 70%;
+        background-size: 275% 100%;
     }
     .logo{
         width: 300px;
