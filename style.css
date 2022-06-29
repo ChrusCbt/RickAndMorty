@@ -143,12 +143,10 @@ body{
 @media only screen and (max-width: 900px) {
     body{
         background-size: scroll;
-        background-position: 65% 70%;
-        background-size: 275% 100%;
+        background-position: 60% 70%;
     }
     .logo{
-        width: 300px;
-        margin-left: 50px;
+        width: 300px
     }
     .form{
         display: flex;
