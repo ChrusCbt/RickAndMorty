@@ -1,0 +1,187 @@
+body{
+  background: url('https://wallpaperaccess.com/full/831751.png');
+  background-position: 170% 70%;
+  background-attachment: fixed;
+  font-size: 12px;
+  text-align: center;
+  scrollbar-color: white;
+}
+.logo{
+    width: 500px;
+}
+.container{
+    width: 60%;
+    margin: 150px auto;
+    padding-top: 50px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 210px;
+}
+.searchBar{
+    background-color: rgb(94, 94, 94);
+    border: 2px solid #00ff40;
+    font-family: "Press Start 2P",cursive;
+    text-align: start;
+    padding: 10px;
+    width: 400px;
+    color: #00ff40;
+    margin-bottom: 55px;
+    border-radius: 8px;
+}
+.searchBar:focus {
+    outline: none;
+    border-color: #26bf47;
+    box-shadow: 0 0 45px 15px #26bf47;
+}
+.searchBar:hover{
+    border: 2px solid #00d1bc;
+    background-color: rgb(94, 94, 94);
+    outline: none;
+    border-color: #26bf47;
+    box-shadow: 0 0 45px 15px #26bf47;
+} 
+.submit{
+    padding: 9px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-family: "Press Start 2P",cursive;
+    background-color: rgb(94, 94, 94);
+    color: #0dff41;
+    border: 2px solid #41ff6a;
+}
+.submit:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(3px);
+}
+.randomButton{
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 450px;
+    margin-top: 90px;
+    position: absolute;
+    font-family: "Press Start 2P",cursive;
+    font-size: 20px;
+    background-color: rgb(94, 94, 94);
+    color: #00ff37;
+    border: 2px solid #41ff6a;
+}
+.randomButton:hover {
+    outline: none;
+    border-color: #26bf47;
+    box-shadow: 0 0 15px 5px #26bf47;
+}
+.randomButton:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(6px);
+}
+.leftButton{
+    position: absolute;
+    top: 0px;
+    margin: 10px;
+    right: 60px;
+    padding: 9px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Press Start 2P",cursive;
+    background-color: rgb(94, 94, 94);
+    color: #00ff37;
+    border: 2px solid #41ff6a;
+}
+.leftButton:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(3px);
+}
+.rightButton{
+    position: absolute;
+    top: 0px;
+    margin: 10px;
+    right: 10px;
+    padding: 9px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Press Start 2P",cursive;
+    background-color: rgb(94, 94, 94);
+    color: #0dff41;
+    border: 2px solid #41ff6a;
+}
+.rightButton:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(3px);
+}
+.characterImg{
+    width: 210px;
+}
+.characterCard{
+    width: 210px;
+    background-color: #00d1bc;
+    margin-top: 85px;
+    margin: 20px auto;
+    border: 2.5px solid #26bf47 ;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 0 50px 1px #26bf47;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.textDiv{
+    text-align: center;
+    flex-grow: 1;
+}
+.hide{
+    display: none;
+}
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 900px) {
+    body{
+        background-image: fixed;
+        background-position: 180% 70%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .logo{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .searchBar{
+        width: 250px;  
+        margin-top: 20px;
+        position: absolute;
+    }
+    .submit{
+        position: absolute;
+        margin-top: 180px;
+        margin-left: 40px;
+        border-radius: 0px;
+        display: none;
+    }
+    .randomButton{
+        font-size: 12px;
+        position: relative;
+        margin-left: 10px;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .leftButton{
+        position: relative;
+        margin-left: 90px;
+    }
+    .rightButton{
+        position: relative;
+    }
+    .cardContainer{
+        margin-top: 10px;
+    }
+   
+}
