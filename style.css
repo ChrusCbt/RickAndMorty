@@ -1,8 +1,8 @@
 body{
   background: url('https://wallpaperaccess.com/full/831751.png');
+  background-position: 160% 100%;
   background-attachment: fixed;
   background-size: cover;
-  background-repeat: repeat-x;
   background-color: black;
   font-size: 12px;
   text-align: center;
@@ -143,11 +143,9 @@ body{
 @media only screen and (max-width: 900px) {
     body{
         background-attachment: fixed;
-        background-size: cover;
         background-position: 100% 100%;
         background: url('https://wallpaperaccess.com/full/831751.png');
         background-repeat: repeat;
-        object-position: -20% 40%;
     }
     .logo{
         width: 300px
@@ -185,6 +183,7 @@ body{
     }
     .cardContainer{
         margin-top: 10px;
+        margin-left: 10px;
         position: absolute;
     }
    
