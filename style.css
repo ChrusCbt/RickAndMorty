@@ -4,6 +4,7 @@ body{
   background-attachment: fixed;
   background-size: cover;
   background-repeat: repeat-x;
+  background-color: black;
   font-size: 12px;
   text-align: center;
   
@@ -142,7 +143,6 @@ body{
 
 @media only screen and (max-width: 900px) {
     body{
-        background-attachment: scroll;
         background-attachment: fixed;
         background-position: 60% 70%;
     }
