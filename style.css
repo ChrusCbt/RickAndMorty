@@ -2,6 +2,7 @@ body{
   background: url('https://wallpaperaccess.com/full/831751.png');
   background-position: 170% 70%;
   background-attachment: fixed;
+  background-repeat: repeat-x;
   font-size: 12px;
   text-align: center;
   scrollbar-color: white;
