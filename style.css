@@ -137,10 +137,6 @@ body{
 /* MOBILE VERSION */
 
 @media only screen and (max-width: 900px) {
-    body{
-        background-image: fixed;
-        background-position: 180% 70%;
-    }
     .logo{
         width: 300px;
         margin-left: 50px;
