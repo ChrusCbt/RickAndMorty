@@ -142,7 +142,7 @@ body{
 
 @media only screen and (max-width: 900px) {
     body{
-        background-size: scroll;
+        background-size: cover;
         background-position: 60% 70%;
     }
     .logo{
@@ -181,6 +181,7 @@ body{
     }
     .cardContainer{
         margin-top: 10px;
+        position: absolute;
     }
    
 }
