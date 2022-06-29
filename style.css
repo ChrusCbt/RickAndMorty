@@ -1,7 +1,8 @@
 body{
   background: url('https://wallpaperaccess.com/full/831751.png');
-  background-position: 180% 100%;
+  background-position: 160% 100%;
   background-attachment: fixed;
+  background-size: cover;
   background-repeat: repeat-x;
   font-size: 12px;
   text-align: center;
@@ -9,6 +10,7 @@ body{
 }
 .logo{
     width: 500px;
+    background-color: transparent;
 }
 .container{
     width: 60%;
@@ -141,7 +143,8 @@ body{
 @media only screen and (max-width: 900px) {
     body{
         background-image: fixed;
-        background-repeat: repeat-x;
+        background-position: -85% 70%;
+        background-size: cover;
     }
     .logo{
         width: 300px;
