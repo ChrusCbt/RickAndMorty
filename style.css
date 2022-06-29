@@ -1,11 +1,9 @@
 body{
   background: url('https://wallpaperaccess.com/full/831751.png');
-  background-position: 170% 70%;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 12px;
   text-align: center;
-  scrollbar-color: white;
 }
 .logo{
     width: 500px;
@@ -142,7 +140,6 @@ body{
     body{
         background-image: fixed;
         background-position: 180% 70%;
-        display: flex;
     }
     .logo{
         width: 300px;
