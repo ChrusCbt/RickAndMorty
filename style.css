@@ -1,5 +1,5 @@
 body{
-  background: url('https://wallpaperaccess.com/full/831751.png');
+  background-image: url('https://wallpaperaccess.com/full/831751.png');
   background-position: -520px;
   background-attachment: fixed;
   background-size: cover;
@@ -144,9 +144,9 @@ body{
 @media only screen and (max-width: 900px) {
     body{
         background-attachment: fixed;
-        background-position: 100% 100%;
-        background: url('https://wallpaperaccess.com/full/831751.png');
+        background-image: url('rick\ and\ morty\ crop\ test\ 8.jpg');
         background-repeat: repeat;
+        background-position: 600px;
     }
     .logo{
         width: 300px
@@ -188,4 +188,53 @@ body{
         position: absolute;
     }
    
+}
+@media only screen  and (device-width: 414px)   and (device-height: 896px){
+   
+        body{
+            background-attachment: fixed;
+            background-image: url('rick\ and\ morty\ crop\ test\ 8.jpg');
+            background-repeat: repeat;
+            background-position: 638px;
+        }
+        .logo{
+            width: 300px
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .searchBar{
+            width: 250px;  
+            margin-top: 20px;
+            position: absolute;
+        }
+        .submit{
+            position: absolute;
+            margin-top: 180px;
+            margin-left: 40px;
+            border-radius: 0px;
+            display: none;
+        }
+        .randomButton{
+            font-size: 12px;
+            position: relative;
+            margin-left: 10px;
+            width: 150px;
+            margin-bottom: 10px;
+        }
+        .leftButton{
+            position: relative;
+            margin-left: 90px;
+        }
+        .rightButton{
+            position: relative;
+        }
+        .cardContainer{
+            margin-top: 10px;
+            margin-left: 15px;
+            position: absolute;
+        }
+       
 }
