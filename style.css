@@ -145,9 +145,9 @@ body{
         background-attachment: fixed;
         background-position: -10px;
         background-image: url('https://wallpaperaccess.com/full/831751.png');
-        background-repeat: repeat-x;
+        background-repeat: no-repeat;
         background-size: cover;
-        /* background-position: stretch; */
+        background-position: stretch;
     }
     .logo{
         width: 300px
