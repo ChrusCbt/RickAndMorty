@@ -193,8 +193,10 @@ body{
    
         body{
             background-image: url('rick\ and\ morty\ crop\ test\ 8.jpg');
-            background-repeat: repeat;
-            background-position: -260px;
+            background-repeat: no-repeat;
+            background-position: -220px;
+            background-attachment: fixed;
+
         }
         .logo{
             width: 300px
