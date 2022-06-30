@@ -1,6 +1,6 @@
 body{
-  background-image: url('https://wallpaperaccess.com/full/831751.png');
-  background-position: -520px;
+  background: url('https://wallpaperaccess.com/full/831751.png');
+  background-position: -550px;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: repeat-x;
@@ -144,9 +144,8 @@ body{
 @media only screen and (max-width: 900px) {
     body{
         background-attachment: fixed;
-        background-image: url('rick\ and\ morty\ crop\ test\ 8.jpg');
-        background-repeat: repeat;
-        background-position: 600px;
+        background-position: 60% 70%;
+        background: url('https://wallpaperaccess.com/full/831751.png');
     }
     .logo{
         width: 300px
@@ -184,58 +183,7 @@ body{
     }
     .cardContainer{
         margin-top: 10px;
-        margin-left: 15px;
         position: absolute;
     }
    
-}
-@media only screen  and (device-width: 414px)   and (device-height: 896px){
-   
-        body{
-            background-image: url('rick\ and\ morty\ crop\ test\ 8.jpg');
-            background-repeat: no-repeat;
-            background-position: -220px;
-            background-attachment: fixed;
-
-        }
-        .logo{
-            width: 300px
-        }
-        .form{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .searchBar{
-            width: 250px;  
-            margin-top: 20px;
-            position: absolute;
-        }
-        .submit{
-            position: absolute;
-            margin-top: 180px;
-            margin-left: 40px;
-            border-radius: 0px;
-            display: none;
-        }
-        .randomButton{
-            font-size: 12px;
-            position: relative;
-            margin-left: 10px;
-            width: 150px;
-            margin-bottom: 10px;
-        }
-        .leftButton{
-            position: relative;
-            margin-left: 90px;
-        }
-        .rightButton{
-            position: relative;
-        }
-        .cardContainer{
-            margin-top: 10px;
-            margin-left: 15px;
-            position: absolute;
-        }
-       
 }
