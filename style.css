@@ -192,10 +192,9 @@ body{
 @media only screen  and (device-width: 414px)   and (device-height: 896px){
    
         body{
-            background-attachment: fixed;
             background-image: url('rick\ and\ morty\ crop\ test\ 8.jpg');
             background-repeat: repeat;
-            background-position: 638px;
+            background-position: -260px;
         }
         .logo{
             width: 300px
